@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -847,6 +851,7 @@ p {
 .lucky-wheel-section {
   background: linear-gradient(to right, #003739, #002d2d);
   padding: 60px 20px;
+  margin-bottom: 20px;
   color: #fff;
 }
 
