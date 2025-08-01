@@ -848,6 +848,14 @@ p {
   margin-top: 20px;
 }
 
+.item-block .image {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
 .lucky-wheel-section {
   background: linear-gradient(to right, #003739, #002d2d);
   padding: 60px 20px;
