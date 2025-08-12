@@ -14,6 +14,11 @@
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
 }
 
 html {
@@ -44,7 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 20px;
+  padding: 10px 20px;
 }
 .logo {
   height: 40px;
@@ -80,7 +85,7 @@ body {
 @media screen and (max-width: 768px) {
   .header-image-logo {
     max-width: 150px;
-    width: auto;
+    width: 100px;
   }
   .header-image-logo img {
     width: 100%;
@@ -361,7 +366,7 @@ p {
 /* Responsive Desktop */
 @media (min-width: 768px) {
   .header-container {
-    padding: 1.5rem 15px;
+    padding: 10px 15px;
   }
   h1 {
     font-size: 2.5rem;
